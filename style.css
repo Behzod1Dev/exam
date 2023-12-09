@@ -1,0 +1,494 @@
+@import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1118px;
+  width: 100%;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  background-color: #ebebeb;
+}
+
+/* header */
+
+#header {
+  width: 100%;
+  background-color: #080435;
+  padding-top: 25px;
+  padding-bottom: 125px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  gap: 125px;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  gap: 21px;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.header-logo_text {
+  color: #fff;
+  text-align: center;
+  font-family: "Abhaya Libre", serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 19px;
+}
+
+.nav-item {
+  color: rgba(255, 255, 255, 0.81);
+  text-align: center;
+  font-family: "Abhaya Libre", serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+  transition: all 0.3s ease;
+}
+.nav-item:hover {
+  font-size: 17px;
+  font-weight: 800;
+  color: #9610ff;
+}
+
+.nav-btn {
+  color: #fff;
+  text-align: center;
+  font-family: "Abhaya Libre", serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+  width: 120px;
+  height: 44px;
+  border-radius: 60px;
+  border: 2px solid #9610ff;
+  box-shadow: 0px 9px 19px 0px rgba(0, 0, 0, 0.15);
+  background: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.nav-btn:hover {
+  text-align: center;
+  font-family: "Abhaya Libre", serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+  height: 44px;
+  border-radius: 60px;
+  border: 2px solid #800ed6;
+  box-shadow: 0px 9px 19px 0px rgba(0, 0, 0, 0.15);
+  background-color: #9b47e0;
+}
+
+.third {
+  width: 100px;
+}
+
+/* hero */
+
+.hero {
+  position: relative;
+  bottom: 60px;
+  background-color: #393287;
+  border-radius: 7px;
+  width: 1138px;
+  height: 294px;
+}
+
+.hero-first_title {
+  color: white;
+  text-align: center;
+  font-family: "Abhaya Libre", serif;
+  font-size: 128px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 52.5px;
+  text-transform: uppercase;
+  padding-bottom: 47px;
+  padding-top: 78px;
+  padding-left: 51px;
+}
+
+.hero-first_text {
+  color: #fff;
+  text-align: center;
+  font-family: "Abhaya Libre", serif;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 52.5px;
+  text-transform: uppercase;
+  padding-left: 110px;
+}
+
+.hero-first {
+  display: flex;
+}
+
+.hero-first-box {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.hero-first_img {
+  position: relative;
+  right: 360px;
+  bottom: 68px;
+}
+
+.hero-second {
+  display: flex;
+  align-items: center;
+  gap: 19px;
+  padding-bottom: 30px;
+}
+
+.hero-second_box {
+  width: 755px;
+  height: 407px;
+  margin-top: -75px;
+  border-radius: 7px;
+}
+
+.hero-second_box_two_img {
+  width: 367px;
+  height: 190px;
+  flex-shrink: 0;
+  margin-top: -40px;
+  border-radius: 7px;
+}
+
+.hero-second_box_two {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+
+.swiper {
+  width: 755px;
+  height: 407px;
+}
+
+/* main */
+
+.main {
+  padding-top: 470px;
+  display: flex;
+  gap: 20px;
+  padding-bottom: 150px;
+}
+
+.info-item_data {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.data-box {
+  display: flex;
+  align-items: center;
+  gap: 19px;
+  padding: 13px 0;
+}
+
+.info-item_btn_box {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin-bottom: 20px;
+}
+
+.info-item_btn {
+  color: #5b41f5;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 99.4%;
+  width: 61px;
+  height: 24.642px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: 1px solid #5b41f5;
+  background: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-bottom: 12px;
+}
+
+.info-item_btn:hover {
+  color: #c4bde5;
+  background: #3e1ff2;
+}
+
+.info-item_text {
+  color: #000;
+  font-family: "Rubik", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 22px;
+  width: 329px;
+  padding-top: 10px;
+}
+
+.info-item_title {
+  color: #000;
+  font-family: "Abhaya Libre", serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+  padding-top: 20px;
+}
+
+.info-list {
+  width: 760px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.category {
+  width: 367px;
+  height: 394px;
+  border-radius: 5px;
+  background: #fff;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+.category-title {
+  color: #000;
+  font-family: "Abhaya Libre", serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 99.4%;
+}
+
+.category-item {
+  color: #000;
+  font-family: "Abhaya Libre", serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 232.4%;
+  opacity: 0.5;
+  padding-left: 10px;
+}
+
+/* tag */
+
+.tag {
+  border-radius: 5px;
+  background: #fff;
+  width: 367px;
+  height: 207px;
+  flex-shrink: 0;
+  margin-top: 20px;
+  padding: 31px 70px 30px 34px;
+}
+
+.tag-title {
+  color: #000;
+  font-family: "Abhaya Libre", serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 99.4%;
+  padding-bottom: 18px;
+}
+
+.tag-btn {
+  display: flex;
+  width: 270px;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 7px;
+}
+
+/* news */
+
+.news {
+  border-radius: 5px;
+  background: #fff;
+  width: 367px;
+  height: 433px;
+  flex-shrink: 0;
+  padding: 31px;
+  margin-top: 25px;
+}
+
+.new-title {
+  color: #000;
+  font-family: "Abhaya Libre", serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 99.4%;
+}
+
+.news-item_img {
+  width: 125px;
+  height: 69px;
+}
+
+.news-item_box_title {
+  color: #000;
+  font-family: "Abhaya Libre", serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 99.4%;
+}
+
+.news-item_box_text {
+  color: #000;
+  font-family: "Abril Libre", serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 123.4%;
+  opacity: 0.4;
+  width: 174px;
+}
+
+.news-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding-top: 40px;
+}
+
+.news-item_box {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* footer */
+
+.footer {
+  background-color: #0d0939;
+  padding-bottom: 83px;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+
+.footer-list {
+  padding-top: 74px;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.footer-logo_text {
+  color: #fff;
+  text-align: center;
+  font-family: "Abhaya Libre", serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+}
+
+.footer-item_btn {
+  color: #fff;
+  font-family: "Abhaya Libre", serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  border-radius: 60px;
+  border: 2px solid #456ae7;
+  box-shadow: 0px 9px 19px 0px rgba(0, 0, 0, 0.15);
+  width: 258px;
+  height: 56px;
+  flex-shrink: 0;
+  background: none;
+  margin-top: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.footer-item_btn:hover {
+  color: #000;
+  background-color: #7b90d5;
+}
+
+.footer-item_title {
+  color: #fff;
+  font-family: "Abhaya Libre", serif;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 42px;
+}
+
+.footer-item_img {
+  display: flex;
+}
+
+.footer-item {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.footer-info_text {
+  color: #fff;
+  font-family: "Abril Libre", serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 42px;
+}
+
+.footer-info {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
